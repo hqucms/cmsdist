@@ -24,6 +24,7 @@ cat << \EOF_TOOLFILE >%i/etc/scram.d/fastjet-contrib-archive.xml
     <info url="http://fastjet.hepforge.org/contrib/"/>
     <lib name="EnergyCorrelator"/>
     <lib name="GenericSubtractor"/>
+    <lib name="HOTVR"/>
     <lib name="JetCleanser"/>
     <lib name="JetFFMoments"/>
     <lib name="Nsubjettiness"/>

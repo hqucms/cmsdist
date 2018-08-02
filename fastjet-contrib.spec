@@ -1,7 +1,7 @@
-### RPM external fastjet-contrib 1.026ECF
-%define tag 5f5ec9be4f2a62736f082ceb8a9eab75e94647e3
+### RPM external fastjet-contrib 1.033HOTVR
+%define tag 886cdcb058835f3433a98a30e69d992a7c23c06d
 %define branch cms/v%realversion
-%define github_user cms-externals
+%define github_user hqucms
 Source: git+https://github.com/%github_user/%{n}.git?obj=%{branch}/%{tag}&export=%{n}-%{realversion}&foo=1&output=/%{n}-%{realversion}.tgz
 Requires: fastjet
 %define keep_archives true
